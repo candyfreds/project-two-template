@@ -28,6 +28,7 @@ h4 {
 
 p {font-family: 'Karla', sans-serif;}
 
+
 blockquote {
 	margin: 20px 60px;
 	font-family: Helvetica, sans-serif;
@@ -35,14 +36,6 @@ blockquote {
 
 header {margin-bottom: 20px;}
 
-/* ensures that your images stretch the width of their containers */
-img { width: 100%; }
-
-a { 
-	color: red;
-	text-decoration: none;
-	 }
-a:hover { color: black; }
 
 .logo {width:10%;
     height:10%;}
