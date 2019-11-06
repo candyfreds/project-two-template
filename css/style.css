@@ -41,6 +41,11 @@ a {
 	 }
 a:hover { color: black; }
 
+.logo {width:10%;
+    height:10%;}
+
+
+
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
