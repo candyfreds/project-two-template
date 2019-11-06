@@ -7,7 +7,8 @@ body {
 	 }
 
 h1, h2, h3, h4 {
-	font-family: Helvetica, sans-serif;
+	font-family:'Rubik', sans-serif;
+}
 }
 
 h1 {
@@ -24,6 +25,8 @@ h3 {
 h4 {
 	font-size: 24px;
 }
+
+p {font-family: 'Karla', sans-serif;}
 
 blockquote {
 	margin: 20px 60px;
