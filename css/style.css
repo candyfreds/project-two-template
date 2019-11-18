@@ -284,65 +284,7 @@ svg {
 
 }
 
-svg #our_mission_string { 
-  
-  transition: 100ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 100ms;
-  -webkit-transition-timing-function: ease-in-out;
-}
 
-
-svg:hover #our_mission_string {
-  fill:blue;
-  width:10px;
-  height:10px;
-}
-
-svg #statement_string { 
-  
-  transition: 100ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 100ms;
-  -webkit-transition-timing-function: ease-in-out;
-}
-
-
-svg:hover #statement_string {
-  fill:red;
-  max-width:10px;
-  max-height:10px;
-}
-
-svg #staff_string { 
-  
-  transition: 100ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 100ms;
-  -webkit-transition-timing-function: ease-in-out;
-}
-
-
-svg:hover #staff_string {
-  fill:green;
-  max-width:10px;
-  max-height:10px;
-}
-
-svg #video_string { 
-  
-  transition: 100ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 100ms;
-  -webkit-transition-timing-function: ease-in-out;
-}
-
-
-svg:hover #video_string {
-  fill:salmon;
-  max-width:10px;
-  max-height:10px;
-}
 
 
 .clearfix{*zoom:1}.clearfix:before,.clearfix:after{display:table;line-height:0;content:""}.clearfix:after{clear:both}
