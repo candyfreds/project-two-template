@@ -68,22 +68,46 @@ img {
 }
 
 
+
+
+
+
+
+.front_h1 {
+  font-size:20px;
+  text-align: center;
+  margin-top:2%;
+  margin-bottom:1px;
+  line-height: 40px;
+  color:teal;
+
+}
+
+.front_h2 {
+  font-size:15px;
+  text-align: center;
+  margin-top:.5%;
+  margin-bottom:1px;
+  line-height: 40px;
+
+}
 .logo {
-  height:80px;
-  width:80px;
-  margin:0;
-  position:relative;
-  top:15px;
-  left:15px;
+  height:9%;
+  width:9%;
+  position:absolute;
+  top:20px;
+  right:10px;
 
 
 }
 
 .frontpage{
-  height:400px;
-  width:400px;
-  position: absolute;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height:60%;
+  margin-top:0%;
+
 
 }
 
@@ -95,9 +119,6 @@ img {
       .cls-2 {
         fill: #922d7f;
       }
-
-
-
 
 
 
@@ -142,6 +163,7 @@ nav#slide-menu {
   -webkit-transition: all 300ms;
   transition: all 300ms;
 }
+
 nav#slide-menu > ul {
   display: block;
   margin: 40px;
@@ -627,7 +649,6 @@ nav.main-menu {
   top: 0px;
   right: 0px;
 }
-
 
 
 

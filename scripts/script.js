@@ -26,7 +26,7 @@ $(function() {
 /*
   Slidemenu
 */
-(function() {
+$(function() {
 	var $body = document.body
 	, $menu_trigger = $body.getElementsByClassName('menu-trigger')[0];
 
@@ -35,7 +35,6 @@ $(function() {
 			$body.className = ( $body.className == 'menu-active' )? '' : 'menu-active';
 		});
 	}
-
 }).call(this);
 
 
