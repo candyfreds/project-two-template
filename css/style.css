@@ -190,6 +190,11 @@ nav#slide-menu > ul li:hover {
   color: black;
   background-color:salmon;
 }
+
+nav#slide-menu > ul li:active {
+  color: black;
+  background-color:yellow;
+}
 nav#slide-menu > ul li:before {
   font-family:'Rubik', sans-serif;
   font-style: normal;

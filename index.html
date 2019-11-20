@@ -18,9 +18,11 @@
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-	<audio>
-	<source src="audio/keya.mp3"></source>
-	</audio>
+	<script>
+	var beep5 = new Audio();
+	keya.src = 'keya.mp3';
+
+	</script>
 
 </head>
 <body>
@@ -28,7 +30,7 @@
 
 <nav id="slide-menu">
 	<ul>
-		<a href="index.html"><li class="events" >Home</li></a>
+		<a href="index.html" onmousedown="keya.play()"><li class="events" >Home</li></a>
 		<a href="about.html"><li class="events">About</li></a>
 		<a href="programs.html"><li class="calendar">Programs</li></a>
 		<a href="summer_camp.html"><li class="events">Summer Camp</li></a>
