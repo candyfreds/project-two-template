@@ -3,7 +3,12 @@
 .align {padding:50px;}
 
 .alignabout {
-  position:absolute;}
+display:grid;
+grid-template-columns: 60% 40%;
+grid-column-gap: 80px;
+margin: 0 auto;
+margin-right:100px;
+} 
 
 
 body { 
@@ -33,7 +38,7 @@ h2 {
 
 main h3 {
   margin-top:60px;
-  text-align:center;
+
 }
 
 h3 {
@@ -125,36 +130,40 @@ a:hover { color: black; }
   width:500px;
 }
 
-.guitarplayer:hover{
-  filter: hue-rotate(200deg);
+.guitarplayer:hover {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
 }
 
 .guitarplayer:active  {
-  background-color:teal;
+  filter: hue-rotate(300deg);
 }
 
 .singer:hover  {
-  background-color:yellow;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
 }
 
 .singer:active  {
-  background-color:teal;
+  filter: hue-rotate(200deg);
 }
 
 .drummer:hover  {
-  background-color:yellow;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
 }
 
 .drummer:active  {
-  background-color:teal;
+  filter: hue-rotate(200deg);
 }
 
 .bassplayer:hover  {
-  background-color:yellow;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
 }
 
 .bassplayer:active  {
-  background-color:teal;
+  filter: hue-rotate(200deg);
 }
 
 .bassguitar {
@@ -184,9 +193,38 @@ a:hover { color: black; }
   background-color:black;
 }
 
+.e-string:active {
+  fill:yellow;
+}
 
+.g-string:active {
+  fill:yellow;
+}
+.a-string:active {
+  fill:yellow;
+}
+.d-string:active {
+  fill:yellow;
+}
 
-
+.tom1:active {
+  fill:yellow;
+}
+.tom2:active {
+  fill:yellow;
+}
+.tom3:active {
+  fill:yellow;
+}
+.snaire:active {
+  fill:yellow;
+}
+.hihat:active {
+  fill:yellow;
+}
+.bass:active {
+  fill:yellow;
+}
 
 
 .cls-1 {
