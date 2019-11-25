@@ -34,10 +34,6 @@ $(function() {
 
   	})
 
-    $('.a-string').click(function() {
-    $('.a-string').attr('fill', 'yellow')
-
-    })
 
     $('.tom3').click(function() {
     $('.tom3').attr('fill', 'yellow')

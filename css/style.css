@@ -2,6 +2,8 @@
 
 .align {padding:50px;}
 
+.alignabout {margin-top:-300px;}
+
 
 body { 
 	font-family: Helvetica, sans-serif;
@@ -94,7 +96,7 @@ img {
   font-size:15px;
   text-align: center;
   line-height: 40px;
-  margin-top:-40px;
+  margin-top:0px;
 
 }
 .logo {
@@ -151,9 +153,10 @@ div.rockbandcharacters {
 
 }
 
-.bass {
+.bassguitar {
   height:900px;
   width:900px;
+  margin-top:-200px;
 }
 
 .cardtitle {
@@ -209,6 +212,12 @@ h1, h2, h3 {
   color: #FF6B6B;
   margin: 0 0 27px;
 }
+
+h3.date {
+  color:purple;
+}
+
+
 /*
  Menu
  */
