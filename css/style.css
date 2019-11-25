@@ -125,8 +125,8 @@ a:hover { color: black; }
   width:500px;
 }
 
-.guitarplayer:hover  {
-  background-color:yellow;
+.guitarplayer:hover{
+  filter: hue-rotate(200deg);
 }
 
 .guitarplayer:active  {
