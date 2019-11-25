@@ -2,7 +2,8 @@
 
 .align {padding:50px;}
 
-.alignabout {margin-top:-300px;}
+.alignabout {
+  position:absolute;}
 
 
 body { 
@@ -18,6 +19,7 @@ h1, h2, h3, h4 {
 
 h1 {
 	font-size: 48px;
+
 
 }
 
@@ -39,6 +41,7 @@ h3 {
   color:teal;
   margin-bottom:30px;
   margin-top:30px;
+
 }
 h4 {
 	font-size: 24px;
@@ -70,24 +73,14 @@ a {
 	 }
 a:hover { color: black; }
 
-img {
-  height:400px;
-  width:400px;
-}
-
-
-
-
-
-
 
 .front_h1 {
   font-size:50px;
   text-align: center;
-  margin-top:15%;
-  margin-bottom:1px;
+  margin-top:5%;
+  margin-bottom:50px;
   line-height: 40px;
-  color:teal;
+  color:black;
   line-height: 50px;
 
 }
@@ -118,45 +111,65 @@ img {
 }
 
 
-div.rockbandcharacters {
-  height:100%;
-  width:100%;
+.rockers {
+  height:60%;
+  width:60%;
+  margin:0 auto;
+
+
+
 }
 
-.drums {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height:100%;
-  margin-top:10px;
+.programs {
+  margin: 0 auto;
+  width:500px;
 }
 
-.guitar {
-  height:200px;
-  width:200px;
+.guitarplayer:hover  {
+  background-color:yellow;
 }
 
-.singer {
-   height: 200px;
-  width:200px;
+.guitarplayer:active  {
+  background-color:teal;
 }
 
-.drummer {
-  height: 275px;
-  width:275px;
-  margin-bottom:-50px;
+.singer:hover  {
+  background-color:yellow;
 }
 
-.bassplayer {
-   height: 200px;
-  width:200px;
+.singer:active  {
+  background-color:teal;
+}
 
+.drummer:hover  {
+  background-color:yellow;
+}
+
+.drummer:active  {
+  background-color:teal;
+}
+
+.bassplayer:hover  {
+  background-color:yellow;
+}
+
+.bassplayer:active  {
+  background-color:teal;
 }
 
 .bassguitar {
-  height:900px;
-  width:900px;
-  margin-top:-200px;
+  width:100%;
+  height:100%;
+ margin:0 auto;
+}
+
+.drums {
+  width:100%;
+  height:100%;
+}
+
+.about_guitar {
+  margin-left:-20px;
 }
 
 .cardtitle {
@@ -224,6 +237,7 @@ h3.date {
 nav#slide-menu {
   background-color:white;
   position: fixed;
+  font-family:'Rubik', sans-serif;;
   top: 0;
   left: -100px;
   bottom: 0;
@@ -261,15 +275,15 @@ nav#slide-menu > ul li {
 }
 nav#slide-menu > ul li:hover {
   color: black;
-  background-color:salmon;
+  background-color:#EC008C;
 }
 
 nav#slide-menu > ul li:active {
   color: black;
-  background-color:teal;
+  background-color:#F7941D;
 }
 nav#slide-menu > ul li:before {
-  font-family:'Rubik', sans-serif;
+
   font-style: normal;
   font-weight: normal;
   speak: none;
