@@ -11,6 +11,8 @@ margin-right:100px;
 } 
 
 
+
+
 body { 
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
@@ -38,6 +40,7 @@ h2 {
 
 main h3 {
   margin-top:60px;
+  color:#F7941D;
 
 }
 
@@ -50,7 +53,7 @@ h3 {
 }
 h4 {
 	font-size: 24px;
-  color:pink;
+  color:teal;
   margin-bottom:20px;
 }
 
@@ -77,6 +80,37 @@ a {
 	text-decoration: none;
 	 }
 a:hover { color: black; }
+
+
+.blackbox {
+  position:relative;
+  top:-367px;
+  left:40px;
+  height:30px;
+  width:100px;
+  background-color: black;
+}
+
+.blackboxtwo {
+  position:relative;
+  top:-300px;
+  left:40px;
+  height:30px;
+  width:100px;
+  background-color: black;
+}
+
+.blackboxthree {
+  position:relative;
+  top:-367px;
+  left:40px;
+  height:30px;
+  width:100px;
+  background-color: black;
+}
+
+
+
 
 
 .front_h1 {
