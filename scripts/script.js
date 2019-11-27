@@ -6,15 +6,15 @@ $(function() {
 
 
 
+
+
+
     $('.ding').mouseover(function() {
         $('audio#key')[0].play()
 
     })
 
-    $('.ding').mouseleave(function() {
-        $('audio#key')[0].currentTime = 0
 
-    })
 
     
 
@@ -23,10 +23,7 @@ $(function() {
 
     })
 
-    $('.dingb').mouseleave(function() {
-        $('audio#keyb')[0].currentTime = 0
 
-    })
 
     
 
@@ -36,10 +33,6 @@ $(function() {
 
     })
 
-   	$('.dingc').mouseleave(function() {
-        $('audio#keyc')[0].currentTime = 0
-
-    })
 
 
 
@@ -49,10 +42,7 @@ $(function() {
 
     })
 
-   	$('.dingd').mouseleave(function() {
-        $('audio#keyd')[0].currentTime = 0
 
-    })
 
 
 
@@ -62,10 +52,6 @@ $(function() {
 
     })
 
-   	$('.dinge').mouseleave(function() {
-        $('audio#keye')[0].currentTime = 0
-
-    })
 
 
 
@@ -75,8 +61,57 @@ $(function() {
 
     })
 
-   	$('.dingf').mouseleave(function() {
-        $('audio#keyf')[0].currentTime = 0
+
+
+
+
+
+    $('.e-string').click(function() {
+        $('audio#bassa')[0].play()
+
+    })
+
+
+    $('.g-string').click(function() {
+        $('audio#bassb')[0].play()
+
+    })
+
+    $('.a-string').click(function() {
+        $('audio#bassc')[0].play()
+
+    })
+
+    $('.d-string').click(function() {
+        $('audio#bassd')[0].play()
+
+    })
+
+
+
+    $('.tom1').click(function() {
+        $('audio#tom1')[0].play()
+
+    })
+
+
+    $('.tom2').click(function() {
+        $('audio#tom2')[0].play()
+
+    })
+
+    $('.tom3').click(function() {
+        $('audio#tom3')[0].play()
+
+    })
+
+    $('.snaire').click(function() {
+        $('audio#snaire')[0].play()
+
+    })
+
+    $('.hihat').click(function() {
+        $('audio#hihat')[0].play()
 
     })
 
