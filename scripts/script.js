@@ -14,11 +14,21 @@ $(function() {
 
     })
 
+    $('.ding').click(function() {
+        $('audio#key')[0].play()
+
+    })
+
 
 
     
 
     $('.dingb').mouseover(function() {
+        $('audio#keyb')[0].play()
+
+    })
+
+    $('.dingb').click(function() {
         $('audio#keyb')[0].play()
 
     })
@@ -33,11 +43,21 @@ $(function() {
 
     })
 
+    $('.dingc').click(function() {
+        $('audio#keyc')[0].play()
+
+    })
+
 
 
 
 
      $('.dingd').mouseover(function() {
+        $('audio#keyd')[0].play()
+
+    })
+
+    $('.dingd').click(function() {
         $('audio#keyd')[0].play()
 
     })
@@ -52,6 +72,11 @@ $(function() {
 
     })
 
+    $('.dinge').click(function() {
+        $('audio#keye')[0].play()
+
+    })
+
 
 
 
@@ -60,6 +85,12 @@ $(function() {
         $('audio#keyf')[0].play()
 
     })
+
+    $('.dingf').click(function() {
+        $('audio#keyf')[0].play()
+
+    })
+
 
 
 
@@ -114,6 +145,19 @@ $(function() {
         $('audio#hihat')[0].play()
 
     })
+
+
+
+$(document).ready(function () {
+    $('.flexslider').flexslider({
+        animation: 'fade',
+        controlsContainer: '.flexslider'
+    });
+});
+
+
+
+    
 
 
 
