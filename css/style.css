@@ -11,6 +11,19 @@ margin-right:30px;
 } 
 
 
+.liberationcamp_h1 {
+  margin:auto;
+  text-align:center;
+  color:orange;
+  font-size:30pt;
+}
+
+.about_h1 {
+  margin:auto;
+  text-align:center;
+  color:#922D7F;
+  font-size:30pt;
+}
 
 
 body { 
@@ -99,6 +112,45 @@ a:hover { color: black; }
   height: 100%;
 }
 
+.liberationtext {
+  background-color:#699B9B;
+  margin:0;
+  padding-left:20px;
+  padding-top:10px;
+  padding-right:50px;
+  color:white;
+  display:grid;
+  grid-template-columns: 60% 40%;
+  grid-column-gap: 20px;
+  border-radius:30px;
+} 
+
+
+
+
+
+
+
+.whiteline {
+  position:relative;
+  top:-535px;
+  left:20px;
+  height:100%;
+  width:0.1294in;
+  background-color: white;
+}
+
+.whitelinetwo {
+  position:relative;
+  top:-1305px;
+  left:40px;
+  height:100%;
+  width:0.0647in;
+  background-color: white;
+
+}
+
+
 
 .blackbox {
   position:relative;
@@ -138,9 +190,15 @@ a:hover { color: black; }
   animation-name: pulse;
   animation-duration: 1s;
   animation-iteration-count: infinite;
+  margin:0;
+
 }
 
 
+
+.whitetext {
+  color:white;
+}
 
 
 
@@ -181,13 +239,40 @@ a:hover { color: black; }
 }
 
 
+
+
 .rockers {
-  height:60%;
-  width:60%;
-  margin:0 auto;
+  width: 100%;
+  margin:0;
+}
+
+.bluearea {
+  background-color: #27AAE1;
+  border-radius: 30px;
+  height:100%;
+  width: 100%;
+  margin: auto;
+}
 
 
 
+.learnmore {
+  background-color:white;
+  color:#E95657;
+  text-transform:uppercase;
+  font-family: 'Karla', sans-serif;
+  height:0.5595in;
+  width:1.603in;
+  border-radius: 15px;
+  font-size: 12pt;
+}
+
+.learnmore:active {
+  background-color:yellow;
+}
+
+.whatsrockcampallabout {
+  color:white;
 }
 
 .programs {
@@ -232,9 +317,9 @@ a:hover { color: black; }
 }
 
 .bassguitar {
-  width:100%;
-  height:100%;
- margin:0 auto;
+  width:60%;
+  height:60%;
+  margin:0 auto;
 }
 
 .drums {
@@ -258,16 +343,31 @@ a:hover { color: black; }
   background-color:black;
 }
 
+.e-string {
+  fill:white;
+}
 .e-string:active {
   fill:yellow;
 }
 
+.g-string {
+  fill:white;
+}
 .g-string:active {
   fill:yellow;
 }
+
+.a-string {
+  fill:white;
+}
+
 .a-string:active {
   fill:yellow;
 }
+.d-string {
+  fill:white;
+}
+
 .d-string:active {
   fill:yellow;
 }
