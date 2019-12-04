@@ -12,10 +12,22 @@ margin-right:30px;
 
 
 .liberationcamp_h1 {
-  margin:auto;
+  position;
   text-align:center;
   color:orange;
   font-size:30pt;
+}
+
+.summercamp_h1 {
+  position:absolute;
+  top:300px;
+  margin-right:200px;
+  color:#922D7F;
+  font-size:50pt;
+  line-height:60px;
+  text-align:right;
+
+
 }
 
 .about_h1 {
@@ -33,18 +45,36 @@ margin-right:30px;
   top:550px;
   margin-left:300px;
   text-align:left;
+  padding-right:50px;
 }
 
 .summercamp_absolute {
   position:absolute;
-  top:350px;
-  padding-right:900px;
-  margin-left:-80px;
   text-align:right;
-  padding-left:30px;
+  right:200px;
+  padding-left:20px;
+  top:400px;
+
 
 }
 
+.mic {
+height:50%;
+width:50%;
+margin:auto;
+
+
+}
+
+.micbutton {
+  fill:pink;
+}
+
+.micbutton: active {
+  fill: yellow;
+}
+
+}
 h3.ourmission {
   color:orange;
   font-size:4vw;
