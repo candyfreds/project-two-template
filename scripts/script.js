@@ -9,6 +9,13 @@ $(function() {
 
 
 
+
+
+
+
+
+
+
     $('.ding').mouseover(function() {
         $('audio#key')[0].play()
 
@@ -90,6 +97,54 @@ $(function() {
         $('audio#keyf')[0].play()
 
     })
+
+
+
+    $('.string1').click(function() {
+        $('audio#string1')[0].play()
+
+    })
+
+
+    $('.string2').click(function() {
+        $('audio#string2')[0].play()
+
+    })
+
+    $('.string3').click(function() {
+        $('audio#string3')[0].play()
+
+    })
+
+    $('.string4').click(function() {
+        $('audio#string4')[0].play()
+
+    })
+
+    $('.string5').click(function() {
+        $('audio#string5')[0].play()
+
+    })
+
+    $('.string6').click(function() {
+        $('audio#string6')[0].play()
+
+    })
+
+
+
+  $("#hide").click(function(){
+    $('#soundwaves').hide();
+  });
+
+$("#show").click(function(){
+    $('#soundwaves').show();
+  });
+
+
+
+
+
 
 
 
