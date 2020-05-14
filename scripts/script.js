@@ -16,12 +16,12 @@ $(function() {
 
 
 
-    $('.ding').click(function() {
+    $('.ding').mouseover(function() {
         $('audio#key')[0].play()
 
     })
 
-    $('.ding').click(function() {
+    $('.ding').mouseover(function() {
         $('audio#key')[0].play()
 
     })
