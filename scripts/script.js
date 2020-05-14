@@ -16,7 +16,7 @@ $(function() {
 
 
 
-    $('.ding').mouseover(function() {
+    $('.ding').click(function() {
         $('audio#key')[0].play()
 
     })
